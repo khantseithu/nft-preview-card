@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red !important; */
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heroimg {
+  width: 100%;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.card-container {
+  width: 320px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 13px;
+  box-shadow: 2px 7px 17px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 7px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 7px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content h1 {
+  font-size: 1.6rem;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 10px;
+}
+
+.content p {
+  color: hsl(215, 51%, 70%);
+  line-height: 1.5;
+}
+
+.price {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.eth-price {
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.eth,
+.clock {
+  padding-right: 7px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+footer {
+  display: flex;
+}
+
+.creator {
+  width: 25px;
+}
+
+footer p {
+  padding-left: 15px;
+  color: hsl(215, 51%, 70%);
+}
+
+.name {
+  color: white;
+}
+
+.content,
+.price,
+.footer {
+  padding: 20px 0;
+}
